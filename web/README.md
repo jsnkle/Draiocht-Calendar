@@ -1,5 +1,7 @@
 # Draíocht moon face
 
+**[Open the hosted calendar](https://jsnkle.github.io/Draiocht-Calendar/)** on GitHub Pages.
+
 Open **index.html** in a browser. It is a self-contained file: the styles, JavaScript, lunar imagery, and astronomical data are embedded, so it works from your computer without a server or internet connection. To put it online, upload that one file to a static web host.
 
 The face uses the calendar's existing month names and Orlando sunset rules. It shows a lunar-day ring around the Moon, the month name and translation, the next new moon, and the next sunset. The civil date and digital time appear beneath the ring. Choose a day on the ring, use the arrows, or choose a Gregorian date to explore. **Now** returns to the live clock. Dates and times always use Orlando time, regardless of your computer's timezone.
@@ -35,3 +37,9 @@ python3 -m http.server 8765 --bind 127.0.0.1 --directory web
 ```
 
 Open `http://localhost:8765/`. An optional `?at=2026-09-19T14%3A10%3A00Z` query opens a particular instant in exploration mode. Without it, the clock is live.
+
+## Publishing updates
+
+GitHub Pages publishes the self-contained `index.html` through the [publishing workflow](../.github/workflows/pages.yml). Each push to `main` runs the Python and JavaScript tests and verifies that the generated calendars and browser file are current before publishing. Rebuild `web/index.html` after editing its sources and include it in the same commit.
+
+The workflow can also be started manually from the repository's Actions tab. Deployments run only from `main`. Repository Settings → Pages uses **GitHub Actions** as the publishing source. The published artifact contains only the bundled calendar page, including its embedded data, imagery, and credits.

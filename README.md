@@ -23,6 +23,8 @@ The number of months is an outcome of the cycles. There is no fixed leap-day sch
 
 ## Start here
 
+**[Open the live calendar](https://jsnkle.github.io/Draiocht-Calendar/)** in your browser.
+
 | Resource | Purpose |
 |---|---|
 | [Moon face](web/index.html) · [Instructions](web/README.md) | An offline browser clock with lunar dates, Orlando sunsets, and seasonal markers |
