@@ -1,0 +1,446 @@
+{
+  "retrieved_on": "2026-09-19",
+  "precision": "Published times rounded to one minute; not second-accurate observations.",
+  "sources": [
+    {
+      "url": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025",
+      "publisher": "US Naval Observatory",
+      "original_timezone": "UTC",
+      "year": 2025
+    },
+    {
+      "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en",
+      "publisher": "National Astronomical Observatory of Japan",
+      "original_timezone": "Japan Central Standard Time (UTC+09:00)",
+      "year": 2025
+    },
+    {
+      "url": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026",
+      "publisher": "US Naval Observatory",
+      "original_timezone": "UTC",
+      "year": 2026
+    },
+    {
+      "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en",
+      "publisher": "National Astronomical Observatory of Japan",
+      "original_timezone": "Japan Central Standard Time (UTC+09:00)",
+      "year": 2026
+    },
+    {
+      "url": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027",
+      "publisher": "US Naval Observatory",
+      "original_timezone": "UTC",
+      "year": 2027
+    },
+    {
+      "url": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en",
+      "publisher": "National Astronomical Observatory of Japan",
+      "original_timezone": "Japan Central Standard Time (UTC+09:00)",
+      "year": 2027
+    },
+    {
+      "url": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028",
+      "publisher": "US Naval Observatory",
+      "original_timezone": "UTC",
+      "year": 2028
+    },
+    {
+      "url": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0",
+      "publisher": "National Astronomical Observatory of Japan",
+      "original_timezone": "Japan Central Standard Time (UTC+09:00)",
+      "year": 2028
+    }
+  ],
+  "new_moons": [
+    {
+      "utc": "2025-01-29T12:36Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-02-28T00:45Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-03-29T10:58Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-04-27T19:31Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-05-27T03:02Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-06-25T10:31Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-07-24T19:11Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-08-23T06:06Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-09-21T19:54Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-10-21T12:25Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-11-20T06:47Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2025-12-20T01:43Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2025"
+    },
+    {
+      "utc": "2026-01-18T19:52Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-02-17T12:01Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-03-19T01:23Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-04-17T11:52Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-05-16T20:01Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-06-15T02:54Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-07-14T09:43Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-08-12T17:37Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-09-11T03:27Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-10-10T15:50Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-11-09T07:02Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2026-12-09T00:52Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2026"
+    },
+    {
+      "utc": "2027-01-07T20:24Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-02-06T15:56Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-03-08T09:29Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-04-06T23:51Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-05-06T10:58Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-06-04T19:40Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-07-04T03:02Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-08-02T10:05Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-08-31T17:41Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-09-30T02:36Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-10-29T13:36Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-11-28T03:24Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2027-12-27T20:12Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2027"
+    },
+    {
+      "utc": "2028-01-26T15:12Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-02-25T10:37Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-03-26T04:31Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-04-24T19:47Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-05-24T08:16Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-06-22T18:27Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-07-22T03:02Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-08-20T10:44Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-09-18T18:24Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-10-18T02:57Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-11-16T13:18Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    },
+    {
+      "utc": "2028-12-16T02:06Z",
+      "source": "https://aa.usno.navy.mil/api/moon/phases/year?year=2028"
+    }
+  ],
+  "solar_markers": [
+    {
+      "utc": "2025-02-03T14:10Z",
+      "longitude": 315,
+      "name": "Imbolc",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en"
+    },
+    {
+      "utc": "2025-03-20T09:01Z",
+      "longitude": 0,
+      "name": "Vernal equinox",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en"
+    },
+    {
+      "utc": "2025-05-05T05:57Z",
+      "longitude": 45,
+      "name": "Beltane",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en"
+    },
+    {
+      "utc": "2025-06-21T02:42Z",
+      "longitude": 90,
+      "name": "Summer solstice",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en"
+    },
+    {
+      "utc": "2025-08-07T05:52Z",
+      "longitude": 135,
+      "name": "Lughnasadh",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en"
+    },
+    {
+      "utc": "2025-09-22T18:19Z",
+      "longitude": 180,
+      "name": "Autumnal equinox",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en"
+    },
+    {
+      "utc": "2025-11-07T04:04Z",
+      "longitude": 225,
+      "name": "Samhain",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en"
+    },
+    {
+      "utc": "2025-12-21T15:03Z",
+      "longitude": 270,
+      "name": "Winter solstice",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2025/rekiyou252.html.en"
+    },
+    {
+      "utc": "2026-02-03T20:02Z",
+      "longitude": 315,
+      "name": "Imbolc",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en"
+    },
+    {
+      "utc": "2026-03-20T14:46Z",
+      "longitude": 0,
+      "name": "Vernal equinox",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en"
+    },
+    {
+      "utc": "2026-05-05T11:49Z",
+      "longitude": 45,
+      "name": "Beltane",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en"
+    },
+    {
+      "utc": "2026-06-21T08:25Z",
+      "longitude": 90,
+      "name": "Summer solstice",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en"
+    },
+    {
+      "utc": "2026-08-07T11:43Z",
+      "longitude": 135,
+      "name": "Lughnasadh",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en"
+    },
+    {
+      "utc": "2026-09-23T00:05Z",
+      "longitude": 180,
+      "name": "Autumnal equinox",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en"
+    },
+    {
+      "utc": "2026-11-07T09:52Z",
+      "longitude": 225,
+      "name": "Samhain",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en"
+    },
+    {
+      "utc": "2026-12-21T20:50Z",
+      "longitude": 270,
+      "name": "Winter solstice",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2026/rekiyou262.html.en"
+    },
+    {
+      "utc": "2027-02-04T01:46Z",
+      "longitude": 315,
+      "name": "Imbolc",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en"
+    },
+    {
+      "utc": "2027-03-20T20:25Z",
+      "longitude": 0,
+      "name": "Vernal equinox",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en"
+    },
+    {
+      "utc": "2027-05-05T17:25Z",
+      "longitude": 45,
+      "name": "Beltane",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en"
+    },
+    {
+      "utc": "2027-06-21T14:11Z",
+      "longitude": 90,
+      "name": "Summer solstice",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en"
+    },
+    {
+      "utc": "2027-08-07T17:27Z",
+      "longitude": 135,
+      "name": "Lughnasadh",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en"
+    },
+    {
+      "utc": "2027-09-23T06:02Z",
+      "longitude": 180,
+      "name": "Autumnal equinox",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en"
+    },
+    {
+      "utc": "2027-11-07T15:39Z",
+      "longitude": 225,
+      "name": "Samhain",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en"
+    },
+    {
+      "utc": "2027-12-22T02:42Z",
+      "longitude": 270,
+      "name": "Winter solstice",
+      "source": "https://eco.mtk.nao.ac.jp/koyomi/yoko/2027/rekiyou272.html.en"
+    },
+    {
+      "utc": "2028-02-04T07:31Z",
+      "longitude": 315,
+      "name": "Imbolc",
+      "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0"
+    },
+    {
+      "utc": "2028-03-20T02:17Z",
+      "longitude": 0,
+      "name": "Vernal equinox",
+      "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0"
+    },
+    {
+      "utc": "2028-05-04T23:12Z",
+      "longitude": 45,
+      "name": "Beltane",
+      "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0"
+    },
+    {
+      "utc": "2028-06-20T20:02Z",
+      "longitude": 90,
+      "name": "Summer solstice",
+      "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0"
+    },
+    {
+      "utc": "2028-08-06T23:21Z",
+      "longitude": 135,
+      "name": "Lughnasadh",
+      "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0"
+    },
+    {
+      "utc": "2028-09-22T11:45Z",
+      "longitude": 180,
+      "name": "Autumnal equinox",
+      "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0"
+    },
+    {
+      "utc": "2028-11-06T21:27Z",
+      "longitude": 225,
+      "name": "Samhain",
+      "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0"
+    },
+    {
+      "utc": "2028-12-21T08:20Z",
+      "longitude": 270,
+      "name": "Winter solstice",
+      "source": "https://eco.mtk.nao.ac.jp/cgi-bin/koyomi/cande/phenomena_sy_en.cgi?year=2028&lst=9&phenom=50&cal=0&jg=1&dtm=0&dt=0&body=0&body=1&coord=1&figure=0"
+    }
+  ]
+}
