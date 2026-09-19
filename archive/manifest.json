@@ -1,0 +1,74 @@
+{
+  "archived_on": "2026-09-19",
+  "source_commit": "ce5a8b357c0ef75e701c62e3b29b14dfd5bfac0d",
+  "files": [
+    {
+      "path": "2025-2026-calendar.md",
+      "sha256": "9b297cab9cde9423a3ac90673b9544dbc3afc9dcbfec73e6ddea8908fa77f1b7"
+    },
+    {
+      "path": "2026-2027-calendar.md",
+      "sha256": "9574914c0e48090ab9ef939616f344310409d2c35c7090e9bb9ff1583183bf7c"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e3007ff5c3600b1a946ee8a1752d451f43d769988a08f60367dad695008b5a64"
+    },
+    {
+      "path": "autumn-equinox-pattern.md",
+      "sha256": "49c7801d566992db823d4b8451ce3ada00b0e1e83cd7db6a2e116dfd9845f36f"
+    },
+    {
+      "path": "core-principles-and-development-notes.md",
+      "sha256": "178ca259752235b59e9b0f58805d9c037b7d9e61e7eb5df365cba26dc4c768d6"
+    },
+    {
+      "path": "draiocht-calendar-2025-2026.md",
+      "sha256": "845763b0e748a9560bde1937cf59480f0baaa8b04f0182357753d9961a30a788"
+    },
+    {
+      "path": "draiocht-calendar-faq.md",
+      "sha256": "5ec755bdbf24e8bc6f1295fdf0f2df6e24e1640fa855e2f0c4a942a32293845e"
+    },
+    {
+      "path": "draiocht-calendar-mechanics.md",
+      "sha256": "b03fa574bdd63b2d01bf23bd1720d5e67255770b417d45bcb2b3a69bcc57b9c1"
+    },
+    {
+      "path": "draiocht-month-meanings.md",
+      "sha256": "1b1e002c1f00226abc4a7ce95ae10955123a978f504d3b3e0193e9afb7c718e3"
+    },
+    {
+      "path": "month-naming-concept.md",
+      "sha256": "9e31e491272837c64ffb59a52297a20a80c3e4ee026a5b2ab84667a833f93fdf"
+    },
+    {
+      "path": "moon-phases.csv",
+      "sha256": "0451904b65f2d83618eb41ab0204391c7e63f6ea9195127e9d0088dc7c76dd81"
+    },
+    {
+      "path": "new-year-research.md",
+      "sha256": "5204d66e2cb38f08e382287645feb5ad55997f7e142888e95c7238673317e85f"
+    },
+    {
+      "path": "renaming.md",
+      "sha256": "717f82ab950253f554c89d07f8b055dc7dc224bb2661d2c78960d1619884f0a0"
+    },
+    {
+      "path": "samhain_new_year_defense.md",
+      "sha256": "4e69f8ea3a5f294aa018c49d7e43f2a4f3f17dff1653736e2d3c9298e5ed5cda"
+    },
+    {
+      "path": "summer-solstice-pattern.md",
+      "sha256": "24bf9b98d3dcc54970cc2f0a2e31151528dfaedd9546a48f811dc8c802970bc3"
+    },
+    {
+      "path": "traditional-celtic-festivals.md",
+      "sha256": "209355a7f47e1dadb8abd9beda629efd93cfa7aac7714d6cfefa036f7fc48aef"
+    },
+    {
+      "path": "winter-solstice-pattern.md",
+      "sha256": "18ea220f9ec3664d305d8457334c799281c1a0f9cad93a7f2ce599805d494b68"
+    }
+  ]
+}
