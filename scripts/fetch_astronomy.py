@@ -78,7 +78,7 @@ def main():
     retrieved = datetime.strptime(args.retrieved_on, "%Y-%m-%d").date().isoformat() if args.retrieved_on else datetime.now(timezone.utc).date().isoformat()
     data = {"retrieved_on": retrieved,
             "precision": "Published times rounded to one minute; not second-accurate observations.",
-            "sources": [], "new_moons": [], "solar_markers": []}
+            "sources": [], "new_moons": [], "lunar_phases": [], "solar_markers": []}
     for year in YEARS:
         moon_url = f"https://aa.usno.navy.mil/api/moon/phases/year?year={year}"
         solar_url = f"https://eco.mtk.nao.ac.jp/koyomi/yoko/{year}/rekiyou{str(year)[2:]}2.html.en"
@@ -92,24 +92,28 @@ def main():
         entries = [entry for entry in moon["phasedata"] if entry["phase"] == "New Moon"]
         if len(entries) not in (12, 13):
             raise ValueError(f"Unexpected new-moon count for {year}")
-        for entry in entries:
+        for entry in moon["phasedata"]:
+            if entry["phase"] not in ("New Moon", "First Quarter", "Full Moon", "Last Quarter"):
+                raise ValueError(f"Unexpected lunar phase: {entry['phase']}")
             hour, minute = map(int, entry["time"].split(":"))
             instant = datetime(entry["year"], entry["month"], entry["day"], hour, minute, tzinfo=timezone.utc)
-            data["new_moons"].append({"utc": iso(instant), "source": moon_url})
+            data["lunar_phases"].append({"utc": iso(instant), "phase": entry["phase"], "source": moon_url})
+            if entry["phase"] == "New Moon":
+                data["new_moons"].append({"utc": iso(instant), "source": moon_url})
         solar = read_source(solar_url, f"solar-{year}.html", args.cache_dir).decode("iso-8859-1")
         data["solar_markers"].extend(parse_solar(solar, year, solar_url))
         data["sources"].extend([
             {"url": moon_url, "publisher": "US Naval Observatory", "original_timezone": "UTC", "year": year},
             {"url": solar_url, "publisher": "National Astronomical Observatory of Japan", "original_timezone": "Japan Central Standard Time (UTC+09:00)", "year": year},
         ])
-    for key in ("new_moons", "solar_markers"):
+    for key in ("new_moons", "lunar_phases", "solar_markers"):
         data[key].sort(key=lambda event: event["utc"])
         if len({e["utc"] for e in data[key]}) != len(data[key]):
             raise ValueError(f"Duplicate times in {key}")
     destination = ROOT / "data" / "astronomy.json"
     destination.parent.mkdir(exist_ok=True)
     destination.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n")
-    print(f"Saved {len(data['new_moons'])} new moons and {len(data['solar_markers'])} solar markers.")
+    print(f"Saved {len(data['new_moons'])} new moons, {len(data['lunar_phases'])} primary phases, and {len(data['solar_markers'])} solar markers.")
 
 
 if __name__ == "__main__":

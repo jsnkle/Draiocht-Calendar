@@ -1,6 +1,6 @@
 # Astronomical data and regeneration
 
-`astronomy.json` contains 49 new-moon times and 32 seasonal markers for Gregorian years 2025–2028. Every event retains its source URL. The data support the three complete solar-year calendars beginning at the vernal equinoxes of 2025, 2026, and 2027, with the lunar months crossing their boundaries. Seasonal names refer to the Northern Hemisphere.
+`astronomy.json` contains 49 new-moon times, 198 primary lunar phases (including those new moons), and 32 seasonal markers for Gregorian years 2025–2028. Every event retains its source URL. The data support the three complete solar-year calendars beginning at the vernal equinoxes of 2025, 2026, and 2027, with the lunar months crossing their boundaries. Seasonal names refer to the Northern Hemisphere.
 
 `sunsets-orlando.json` contains 1,461 daily sunsets for the same years at the Orlando reference point, 28.54° N, 81.38° W. Each dated month begins at the sunset opening the day that contains its new moon. Daily numbering counts sunsets from that boundary.
 
