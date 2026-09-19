@@ -25,6 +25,7 @@ The number of months is an outcome of the cycles. There is no fixed leap-day sch
 
 | Resource | Purpose |
 |---|---|
+| [Moon face](web/index.html) · [Instructions](web/README.md) | An offline browser clock with lunar dates, Orlando sunsets, and seasonal markers |
 | [Calendar rules](docs/calendar-rules.md) | Years, lunar months, seasonal markers, and daily dates |
 | [Natural Tuning](docs/natural-tuning.md) | The reflective cycle and flexible observance |
 | [Month names](docs/month-names.md) | The solar cycle behind the names, their meanings, and the reasons for revisions |

@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10111a">
+  <meta name="description" content="An Orlando moon clock for the Draíocht calendar. Lunar months, sunset days, and the turning solar year.">
+  <title>Draíocht · Moon & season</title>
+  <style>/* FACE_CSS */</style>
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div class="brand"><h1>Draíocht</h1><p class="tagline">Druidic Calendar</p></div>
+      <div class="place"><span class="location-dot"></span> Orlando, Florida<br><span class="place-detail">28.54° N &nbsp; 81.38° W</span></div>
+    </header>
+    <section id="error" class="error" hidden aria-live="polite"><h2>Outside this calendar’s dates</h2><p id="error-message"></p><button id="explore-available">Explore the available calendar</button></section>
+    <section class="instrument" id="instrument" aria-label="Moon clock and seasonal information">
+      <div class="reading moon-reading">
+        <span class="eyebrow">THE MOON NOW</span>
+        <svg class="reading-icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="16" fill="none" stroke="currentColor" stroke-width="1.3"/><path id="small-moon" fill="currentColor"/></svg>
+        <h2 id="phase-name">—</h2><p id="phase-next"></p>
+        <span class="fine">Following the light and shadow</span>
+      </div>
+      <div class="dial-shell">
+        <div class="live-status" id="live-status"><span></span> LIVE IN ORLANDO</div>
+        <svg id="dial" viewBox="0 0 620 620" role="group" aria-label="Lunar day ring and current Moon phase">
+          <defs>
+            <radialGradient id="faceGlow"><stop offset="0" stop-color="#222433"/><stop offset="1" stop-color="#12141f"/></radialGradient>
+          </defs>
+          <circle cx="310" cy="310" r="293" fill="url(#faceGlow)" stroke="#2d2e40" stroke-width=".8"/>
+          <circle cx="310" cy="310" r="253" class="ring-line"/>
+          <circle cx="310" cy="310" r="214" class="ring-line"/>
+          <path d="M306 9 L310 16 L314 9" fill="#c4b4e9"/>
+          <g id="day-ring"></g>
+          <image id="moon-photo" x="166" y="141" width="288" height="288" aria-hidden="true"/>
+          <text id="moon-status" x="310" y="285" text-anchor="middle" class="moon-status">Loading the Moon…</text>
+          <text id="month-name" x="310" y="479" text-anchor="middle" class="month-name">—</text>
+          <text id="month-translation" x="310" y="508" text-anchor="middle" class="month-translation"></text>
+        </svg>
+        <div class="civil-date"><span id="civil-date"></span><span class="civil-separator">/</span><time id="clock-time"></time></div>
+        <p class="ring-help">Choose a day on the ring to explore</p>
+      </div>
+      <div class="reading new-moon-reading">
+        <span class="eyebrow">NEXT NEW MOON</span>
+        <svg class="reading-icon" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="15" fill="none" stroke="currentColor" stroke-width="1.2"/><circle cx="24" cy="24" r="11" fill="currentColor" opacity=".06"/><path d="M37 5v7m-3.5-3.5h7" stroke="currentColor" stroke-width="1.2"/></svg>
+        <h2 id="next-moon-date">—</h2><p id="next-moon-time"></p><span id="next-moon-away" class="fine"></span>
+      </div>
+      <div class="reading season-reading">
+        <span class="eyebrow" id="corner-label">NEXT TURN OF THE YEAR</span>
+        <svg class="reading-icon season-icon" viewBox="0 0 48 48" aria-hidden="true" id="season-icon"></svg>
+        <h2 id="season-name">—</h2><p id="season-date"></p><p class="reflection" id="reflection"></p>
+      </div>
+      <div class="reading sunset-reading">
+        <span class="eyebrow">NEXT SUNSET</span>
+        <svg class="reading-icon" viewBox="0 0 48 48" aria-hidden="true"><path d="M6 32h36M9 37h30M14 29a10 10 0 0120 0M24 7v9m-4-4 4 4 4-4M7 19l5 4m29-4-5 4" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>
+        <h2 id="sunset-time">—</h2><p id="sunset-away"></p><span class="fine" id="tomorrow-date"></span>
+      </div>
+    </section>
+    <footer>
+      <div class="date-controls" aria-label="Explore a date">
+        <button id="previous-day" class="arrow-button" aria-label="Previous day">←</button>
+        <label class="date-label"><span class="sr-only">Gregorian date in Orlando</span><input id="date-picker" type="date" aria-label="Gregorian date in Orlando"></label>
+        <button id="next-day" class="arrow-button" aria-label="Next day">→</button>
+        <button id="now-button" class="now-button">Now</button>
+      </div>
+      <div class="footer-options"><label>Lower left <select id="corner-choice" aria-label="Lower-left corner content"><option value="season">Next seasonal marker</option><option value="reflection">Current reflection</option><option value="full">Next full moon</option></select></label><button id="about-button" class="text-button">About this face <span aria-hidden="true">↗</span></button></div>
+    </footer>
+    <p class="quiet-note">A day from sunset to sunset. A year from equinox to equinox.</p>
+    <p id="announcement" class="sr-only" aria-live="polite"></p>
+  </main>
+  <dialog id="about-dialog" aria-labelledby="about-title">
+    <button id="close-about" class="close-button" aria-label="Close about panel">×</button>
+    <p class="eyebrow">DRAÍOCHT</p><h2 id="about-title">A small window into the year.</h2>
+    <p>The whole sunset-to-sunset day containing a new moon is day 1. The date advances at sunset in Orlando. The vernal equinox changes the year without resetting the lunar date.</p>
+    <p>The ring shows each day of the current lunar month. Its small Moon drawings represent the midpoint of each sunset day; the central Moon follows the displayed time. Use the arrows, date picker, or ring to explore. Choosing a Gregorian date opens noon in Orlando. <strong>Now</strong> returns to the live clock.</p>
+    <h3>The lower-left corner</h3><p>Try the next seasonal marker, the current Natural Tuning reflection, or the next full moon. A marker is a reference point; reflection and celebration have room around it.</p>
+    <h3>What is calculated</h3><p>Dates use published <a href="https://aa.usno.navy.mil/data/api" target="_blank" rel="noopener noreferrer">US Naval Observatory</a> moon phases and Orlando sunsets, and <a href="https://eco.mtk.nao.ac.jp/koyomi/" target="_blank" rel="noopener noreferrer">NAOJ</a> solar markers. Times are published to a minute. Sunsets assume a level horizon and standard refraction.</p>
+    <p>The central Moon uses lunar surface imagery from <a href="https://svs.gsfc.nasa.gov/4720/" target="_blank" rel="noopener noreferrer">NASA’s Scientific Visualization Studio</a>, assembled from Lunar Reconnaissance Orbiter data. Its lighting follows the phase interpolated between published new, quarter, and full moons. This is a rendering with approximate lighting, shown with lunar north up; it does not reproduce local sky tilt, libration, or eclipses. The small symbols around the ring are schematic.</p>
+    <h3>Take it with you</h3><p>This is one self-contained HTML file with embedded JavaScript. Save it on your computer and open it in a browser, or upload it to a static website. It needs no account, installation, or network connection.</p>
+    <p class="fine">This copy covers the vernal equinox of 2025 through the vernal equinox of 2028. Data retrieved September 19, 2026. Orlando reference point: 28.54° N, 81.38° W. Daily dates are specific to that location.</p>
+  </dialog>
+  <noscript><p class="error">Enable JavaScript to show the live calendar.</p></noscript>
+  <script>/* FACE_DATA */</script>
+  <script>/* CALENDAR_JS */</script>
+  <script>/* MOON_JS */</script>
+  <script>/* MOON_TEXTURE */</script>
+  <script>/* FACE_JS */</script>
+</body>
+</html>

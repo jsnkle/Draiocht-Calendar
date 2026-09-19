@@ -27,6 +27,8 @@ From the repository root:
 ```sh
 python3 scripts/build_calendars.py
 python3 scripts/build_calendars.py --check
+python3 scripts/build_face.py
+python3 scripts/build_face.py --check
 python3 -m unittest discover -s tests -v
 ```
 
@@ -36,6 +38,7 @@ Generation works offline from the committed data. To refresh the public source t
 python3 scripts/fetch_astronomy.py
 python3 scripts/fetch_sunsets.py
 python3 scripts/build_calendars.py
+python3 scripts/build_face.py
 ```
 
 The astronomical importer selects all eight angular markers and each new moon; it does not approximate them from average month lengths or fit an orbital model. The sunset importer requires a complete annual table for Orlando. The generator places day 1 at the sunset on or before conjunction, then assigns the quarter-point names to the dated months containing those events. It counts the exact new-moon instants within each astronomical season to identify its third new moon as a Black Moon when there are four, assigning Ré Anann to the month whose day 1 contains it. Season and day boundaries include their beginning and exclude their end.
