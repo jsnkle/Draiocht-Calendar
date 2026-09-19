@@ -1,99 +1,51 @@
 # Draíocht Calendar
 
-## A Natural Lunar-Solar Spiral
+Let the movements of the Sun and Moon determine the calendar. Use its dates to notice change, and let observation, place, and community shape how we respond.
 
-Our relationship to time, in its truest form, is not mechanical. It follows the rhythms of the cosmos. The Draíocht Calendar (pronounced DREE-oct) honors these natural patterns, aligning human timekeeping with the actual movements of celestial bodies rather than arbitrary divisions. This calendar tracks years by the spring equinox and months by the phases of the moon, creating a system that resonates with both scientific precision and spiritual meaning.
+## Why this calendar
 
-## Philosophy
+I began Draíocht because I wanted the dates I used to keep me aware of the Sun and Moon. I struggled to connect seasonal celebrations fixed to Gregorian dates with what I was noticing around me. I wanted a calendar whose boundaries followed the events themselves.
 
-This calendar system is based on five philosophical principles:
+For me, Samhain begins a period of reflection. Ideas take shape through winter, move toward action around Imbolc, and enter growth around the vernal equinox. Preparation for a new year can begin within the year that is ending.
 
-1. **Cyclical Time** - Recognizing time as a spiral rather than a straight line, returning to similar points while never repeating exactly.
+This calendar brings that experience into daily life. Lunar dates keep the Moon in view; seasonal observances offer occasions to gather; reflection gives those patterns personal meaning. For these purposes, I find this approach a better fit.
 
-2. **Harmony with Nature** - Tracking actual astronomical events rather than arbitrary human divisions, reweaving our consciousness into natural cycles.
+## How it works
 
-3. **Balance of Energies** - Honoring the complementary forces that create dynamic tension necessary for life, both light and dark, both action and receptivity.
+- **A year runs from one vernal equinox to the next.** Draíocht uses the vernal equinox in the Northern Hemisphere; its seasonal names follow that perspective throughout.
+- **A month begins with the sunset-to-sunset day containing astronomical new moon.** That whole day is day 1; each subsequent sunset advances the date until the next month's day 1.
+- **Idir-Ré is the month containing the vernal equinox.** The year changes within it; the lunar month continues.
+- **A Black Moon is the third new moon in an astronomical season containing four.** I call the month whose day 1 contains that new moon Ré Anann.
+- **Eight seasonal markers follow the Sun's position.** Equinoxes, solstices, and the four angular midpoints divide its annual path into 45° steps. Their elapsed spacing varies.
+- **Observances have room around their markers.** A precise reference instant can sit within a longer period of noticing, celebration, and adjustment.
 
-4. **Ancestral Wisdom** - Connecting to how ancient Druids understood time and seasons, honoring their wisdom while creating something meaningful for present use.
+The number of months is an outcome of the cycles. There is no fixed leap-day schedule to keep the equinox in place: the equinox defines the boundary. Calculation locates the events; observation connects them to daily experience. The [rules](docs/calendar-rules.md) explain the practical conventions and their limits.
 
-5. **Attentiveness** - Requiring mindfulness of moon phases and seasonal changes, fostering a deeper connection to the natural world.
+## Start here
 
-## Repository Contents
+| Resource | Purpose |
+|---|---|
+| [Calendar rules](docs/calendar-rules.md) | Years, lunar months, seasonal markers, and daily dates |
+| [Natural Tuning](docs/natural-tuning.md) | The reflective cycle and flexible observance |
+| [Month names](docs/month-names.md) | The solar cycle behind the names, their meanings, and the reasons for revisions |
+| [Language and naming research](docs/language-and-naming-research.md) | Dictionary, grammar, and historical evidence behind the naming choices |
+| [2027–2028 calendar](calendars/2027-2028.md) | The year beginning at the 2027 vernal equinox |
+| [2026–2027 calendar](calendars/2026-2027.md) | The year beginning at the 2026 vernal equinox |
+| [2025–2026 calendar](calendars/2025-2026.md) | A comparison year with an additional named lunation |
+| [History and sources](docs/history-and-sources.md) | Evidence, interpretation, and questions for further research |
 
-This repository contains the following resources:
+To begin, find the lunar month containing today. Notice the Moon when it is visible, record something changing where you live, and use the next seasonal marker as an occasion to pause or gather. Gregorian dates in the tables help with everyday scheduling.
 
-- [The Structure and Mechanics of the Draíocht Calendar](draiocht-calendar-mechanics.md) - A technical explanation of the astronomical foundations of the calendar
-- [The Sacred Meanings of the Draíocht Calendar](draiocht-month-meanings.md) - An exploration of the meaning and symbolism of each month
-- [Month Naming Concept](month-naming-concept.md) - A practical example of a standard and Anann years with month start/end dates and lengths
-- [2025-2026 Calendar](2025-2026-calendar.md) - Text based documentation of dates and significant events for current year
-- [2026-2027 Calendar](2026-2027-calendar.md) - Text based documentation of dates and significant events for next year
-- [Frequently Asked Questions](draiocht-calendar-faq.md) - Answers to common questions about the calendar system
+## Origins and status
 
-## Using This Calendar
+I'm developing Draíocht as a contemporary calendar, with an interest in Irish and Druidic traditions. The equinox year, new-moon months, Idir-Ré, use of the seasonal Black Moon, and Natural Tuning framework are choices I've brought together here. I want research to inform the idea and correct it where necessary.
 
-The Draíocht Calendar can be used alongside the conventional Gregorian calendar. To integrate it into your life:
+I'm not an expert in the fields this project draws on. I find this calendar useful, and I'm sharing it while it is still developing. The [history and sources](docs/history-and-sources.md) explain its strengths and limits. I'm open to changing month names that don't convey what I intend. The reference calendars use Orlando sunsets for daily dates.
 
-1. **Mark the astronomical events** - Note the spring equinox, solstices, and new moons on your conventional calendar
-2. **Observe the month beginnings** - Take note of each new moon as the beginning of a new month
-3. **Explore the month energies** - Consider the symbolic meaning of the current month and how it might inform your activities
-4. **Create personal or community rituals** - Celebrate the beginning of each month, the solstices and equinoxes, and the new year
+The Irish word *draíocht* includes senses of magic and enchantment, as well as druidic art. See [Ó Dónaill's dictionary](https://www.teanglann.ie/en/fgb/dra%C3%ADocht).
 
-## Background
-
-This calendar system seeks to reconstruct what might have been the original Druidic approach to timekeeping before Roman influence. It honors both scientific precision and spiritual meaning, offering a way to reconnect with natural cycles in our modern world.
-
-Unlike many modern calendar reforms that prioritize mathematical convenience, this system prioritizes actual celestial events and natural relationships between cycles, creating a more authentic connection to cosmic rhythms.
-
-## Special Features
-
-1. **Idir-Ré, the Threshold Month** - This special month contains the spring equinox, which divides it into Idir-Ré Críoch (Ending Between-Time) before the equinox and Idir-Ré Tús (Beginning Between-Time) after. The equinox marks the precise transition from one year to the next within this threshold month.
-
-2. **Ré Anann, the Special 13th Month** - Approximately every three years, 13 complete lunar cycles occur between consecutive months containing the spring equinox. During these expanded years, a special month named Ré Anann (after the primordial mother goddess Anu) manifests, honoring the feminine divine energy.
-
-3. **Observational Basis** - The calendar relies on direct observation of astronomical events rather than mathematical formulas, connecting users more deeply to natural cycles.
-
-4. **Spiral Time Concept** - Unlike linear or purely cyclical calendars, the Draíocht Calendar embodies a spiral concept of time—returning to similar positions while never repeating exactly the same way.
-
-5. **Harmony Between Solar and Lunar** - The calendar honors both solar markers (equinoxes, solstices) and lunar cycles (new moons) without artificially forcing them into alignment.
-
-6. **Natural Variability** - The calendar embraces the natural variability in astronomical cycles rather than imposing artificial regularization, honoring the true patterns of the cosmos.
-
-## Month Names and Meanings
-
-The Draíocht Calendar uses a naming system that tells the story of cosmic balance, movement to extremes, and return to center:
-
-- **Idir-Ré** (ID-eer RAY) - Between-Time, threshold month containing the spring equinox
-- **Éirí** (AY-ree) - Rising/Ascension, first month after vernal equinox
-- **Neartú** (NYART-oo) - Strengthening/Intensifying, second month after vernal equinox
-- **Grian Thuaidh** (GREE-un HOO-ee) - Sun North, contains the northern solstice
-- **Iompú** (UM-poo) - Turning/Transformation, first month after northern solstice
-- **Cothromú** (KUH-hrum-oo) - Balancing/Equalizing, second month after northern solstice
-- **Réiteach** (RAY-tyakh) - Reconciliation/Resolution, contains the autumnal equinox
-- **Ísliú** (EESH-lyoo) - Lowering/Descending, first month after autumnal equinox
-- **Doimhniú** (DOI-nyoo) - Deepening, second month after autumnal equinox
-- **Grian Theas** (GREE-un HASS) - Sun South, contains the southern solstice
-- **Filleadh** (FIL-uh) - Returning, first month after southern solstice
-- **Aisling** (ASH-ling) - Vision/Dream, final month before completing the cycle
-- **Ré Anann** (RAY AN-an) - Era of Anu, special 13th month appearing only in longer years
-
-## Relationship to Traditional Festivals
-
-This calendar respects and complements the traditional fire festivals (Samhain, Imbolc, Beltane, and Lughnasadh):
-
-* While Imbolc (February 1-2) celebrates the first stirrings of spring within the community context, our calendar recognizes the spring equinox as the astronomical beginning of a new year
-* The traditional festivals remain important community celebrations within our framework
-* Our calendar adds astronomical precision to personal timekeeping while honoring the cultural significance of established observances
-
-## Experiencing the Calendar
-
-As you begin to notice the lunar cycles and seasonal transitions marked in this calendar, you may discover a deeper connection to the natural world. Consider starting with a single lunar month - observe how the energy shifts from new moon to full and back again. Mark the equinox as a moment of balance and renewal.
-
-This calendar invites not just intellectual understanding but lived experience, offering a way to reconnect with cosmic rhythms that have guided humanity since our earliest days.
-
-## Contributions
-
-This is an evolving project. Contributions, suggestions, and adaptations are welcome. If you develop resources, rituals, or adaptations of this calendar system, please consider sharing them through a pull request.
+The [original drafts](archive/README.md) are preserved unchanged. [Data and generation instructions](data/README.md) document the new tables.
 
 ## License
 
-This work is shared under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). You are free to share and adapt this material for non-commercial purposes, provided you give appropriate credit and indicate if changes were made.
+The project continues under the [Creative Commons Attribution–NonCommercial 4.0 International license](https://creativecommons.org/licenses/by-nc/4.0/). Give appropriate credit and identify changes when sharing adaptations. External sources retain their own terms.
